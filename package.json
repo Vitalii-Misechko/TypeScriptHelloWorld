@@ -1,0 +1,20 @@
+{
+  "name": "martaweb",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/marta_ai/martaweb.git"
+  },
+  "author": "Misechko Vitalii",
+  "homepage": "https://bitbucket.org/marta_ai/martaweb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.3.4"
+  }
+}
