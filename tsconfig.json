@@ -5,6 +5,8 @@
     ],
     "compilerOptions": {
         "noImplicitAny": true,
+        "strictNullChecks" :true,
+        "noImplicitThis":true,
         "target": "es2015"
     }
 }
