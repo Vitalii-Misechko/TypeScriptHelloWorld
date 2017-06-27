@@ -3,6 +3,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var tsify = require('tsify');
 var sourcemaps = require('gulp-sourcemaps');
+var uglify = require('gulp-uglify');
 var buffer = require('vinyl-buffer');
 var paths = {
     pages: ['src/*.html']
@@ -30,6 +31,7 @@ gulp.task('default', ['copyHtml'], function () {
     .pipe(source('bundle.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(uglify())
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('dist'));
 });
