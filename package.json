@@ -13,8 +13,13 @@
   "author": "Misechko Vitalii",
   "homepage": "https://bitbucket.org/marta_ai/martaweb#readme",
   "devDependencies": {
+    "browserify": "^14.4.0",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.1.7",
-    "typescript": "^2.3.4"
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.4",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
   }
 }
