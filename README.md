@@ -1,3 +1,3 @@
-# README #
+# TypeScript HelloWorld project #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It can be used as template for other new projects. It uses Gulp, Browserfy, Uglify.
